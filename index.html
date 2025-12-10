@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -8,7 +8,7 @@
   </head>
   <body>
     <div id="root"></div>
-    <!-- Use relative path to ensure Vercel finds main.tsx -->
-    <script type="module" src="./src/main.tsx"></script>
+    <!-- Vite will automatically resolve the main.tsx via /src/main.tsx as module -->
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
